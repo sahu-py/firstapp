@@ -10,7 +10,7 @@ pipeline{
     }
     stage('copy code'){
       steps{
-        sh 'cp /home/jimmy/jenkins/workspace/'first deployment'/index.html /var/www/html/index.html'
+        sh 'cp /home/jimmy/jenkins/workspace/first-deployment/index.html /var/www/html/index.html'
       }
     }
   }
